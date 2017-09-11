@@ -19,7 +19,8 @@ class Book extends Product {
     }
     
     public function display() { // void on class diagram
-        printf("<b>%s</b><br />\nPageCount: %s <br />"
+        printf("<b>%s: %s</b><br />\nPageCount: %s <br /><br />"
+                , $this->getProductType()
                 , $this->title
                 , $this->getPageCount());
     }

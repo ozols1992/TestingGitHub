@@ -35,7 +35,7 @@ and open the template in the editor.
             printf("<p>%s</p>\n", $v4);
             
             echo '<hr />';
-            echo '<h1>Marianne Nielsen - Assignment BE.3.1<br />';
+            echo '<h1>Marianne Nielsen - Assignment BE.3.1<br /><br />';
             
             $book = new Book('IT Kommunikation', 172);
             $film = new DVD('Avatar', '1 h 5 m');

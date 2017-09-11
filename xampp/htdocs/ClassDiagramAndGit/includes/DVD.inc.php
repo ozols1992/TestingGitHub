@@ -20,7 +20,8 @@ class DVD extends Product {
     }
 
     public function display() {
-        return sprintf("<b>%s</b><br />Duration: %s <br />"
+        return sprintf("<b>%s: %s</b><br />Duration: %s <br /><br />"
+                , $this->getProductType()
                 , $this->title
                 , $this->getDuration());
     }
