@@ -42,7 +42,7 @@ and open the template in the editor.
             $ll = new LiveLecture('Web back.prog.', 'Niels', 45, 'Abstract classes');
             
             $book->display();
-            echo $film->display();
+            echo $film->display(); 
             $ll->display();
                    
         ?>
