@@ -12,6 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         echo 'MN was here';
+        echo 'MN branch maybe';
         ?>
     </body>
 </html>
