@@ -7,11 +7,11 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Testing GitHub</title>
+        <title></title>
     </head>
     <body>
         <?php
-            echo 'Marianne made a change here';
+        echo 'MN was here';
         ?>
     </body>
 </html>
